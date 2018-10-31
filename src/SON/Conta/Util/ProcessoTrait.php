@@ -6,6 +6,9 @@
  * Time: 17:14
  */
 
+
+namespace SON\Conta\Util;
+
 trait ProcessoTrait
 {
     public function IniciaProcesso(){

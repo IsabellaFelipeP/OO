@@ -5,7 +5,9 @@
  * Date: 30/10/18
  */
 
-class ContaPremium extends ContaAbstract
+namespace SON\Conta\Types;
+
+class ContaPremium extends \SON\Conta\ContaAbstract
 {
     public function __construct()
     {

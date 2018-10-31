@@ -5,7 +5,9 @@
  * Date: 30/10/18
 */
 
-class Conta extends ContaAbstract
+namespace SON\Conta\Types;
+
+class Conta extends \Son\Conta\ContaAbstract
 {
 
         protected function CalculoDeposito($valor){
