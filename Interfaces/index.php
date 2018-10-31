@@ -1,4 +1,14 @@
-<?php 
+<?php
+
+define('CLASS_DIR', 'src/');
+set_include_path(get_include_path().PATH_SEPARATOR.CLASS_DIR);
+spl_autoload_register();
+
+$x = new SON\Conta\Types\Conta();
+$x->depositar(10);
+echo $x->getSaldo();
+
+
 /*
 require_once "Pessoa.php";
 
@@ -7,8 +17,9 @@ $pessoa1 = new Pessoa("Wesley", 30);
 $pessoa2 = new Pessoa("Maria", 20);
 
 echo $pessoa1->correr(50);
-*/ 
+*/
 
+/*
 require_once "Produto.php";
 require_once "Tenis.php";
 
@@ -19,7 +30,7 @@ $produto->setNome("Tenis Exemplo")
         ->setEstoque(10)
         ->setValor(1000);
 
-
+*/
 
 /*
 $tenis = new TenisAdidas();
