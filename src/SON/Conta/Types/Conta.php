@@ -7,7 +7,9 @@
 
 namespace SON\Conta\Types;
 
-class Conta extends \Son\Conta\ContaAbstract
+use SON\Conta\ContaAbstract;
+
+class Conta extends ContaAbstract
 {
 
         protected function CalculoDeposito($valor){
