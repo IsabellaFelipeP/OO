@@ -5,8 +5,8 @@
  * Date: 30/10/18
 */
 
-require_once  "Conta.php";
-require_once  "ContaPremium.php";
+require_once "Conta.php";
+require_once "ContaPremium.php";
 
 $conta = new ContaPremium();
 $conta->depositar(100);
