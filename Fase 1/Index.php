@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="estilo.css">
     <link rel="stylesheet" type="text/css" href="Marcador.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title> Cadastro de Cliente</title>
 </head>
 
@@ -11,26 +12,42 @@
     <div class="container ">
         <div class="row ">
             <div class = "col-md-12 Marcador">
-            <h1> Cadastro de Cliente</h1>
+                <div class = "page-header"> <!--Serve para colocar uma linha embaixo do texto-->
+                     <h1> Cadastro de Cliente</h1>
+                </div>
             </div>
          </div>
 
-        <form>
 
-               <table class = ".table-bordered">
-                <br>   <div class = mod-md-3>
-                <label for="Nome">Nome:</label>
-                <input type="Nome" class="form-control" id="Nome">
+        <div class = "row">
+            <div class = "col-md-6">
+                <h3>Lista de Cliente</h3>
+                    <form>
+                        <div class="form-group"> <!--Agrupar elementos de um formulario-->
+                            <label for=""Nome>Nome:</label>
+                            <input type="text" class="form-control" id="Nome">
+                        </div>
 
-                </div>
-
-
-
-            </table>
-
+                    </form>
 
             </div>
 
+        </div>
+
+        <form>
+            <!--
+                       <table class = ".table-bordered">
+                        <br>   <div class = mod-md-3>
+                        <label for="Nome">Nome:</label>
+                        <input type="Nome" class="form-control" id="Nome">
+
+                        </div>
+
+                        </table>
+
+
+                    </div>
+         -->
 
         </form>
     </div>
