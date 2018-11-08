@@ -16,7 +16,7 @@
          </div>
 
         <form>
-            
+
                <table class = ".table-bordered">
                 <br>   <div class = mod-md-3>
                 <label for="Nome">Nome:</label>
