@@ -6,7 +6,7 @@ class Cliente
     private $nome;
     private $cpf;
     private $endereco;
-q
+
     public function getNome()
     {
         return $this->nome;
@@ -44,8 +44,6 @@ q
             2 => 'Maria', '00123478911', 'Mar Branca',
             3 => 'Carlos', '00345672189', 'Pedra Branca');
     }
-
-
 
 
 
